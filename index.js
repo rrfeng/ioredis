@@ -6,6 +6,7 @@ exports.ReplyError = require('./lib/reply_error');
 exports.Promise = require('bluebird');
 exports.Cluster = require('./lib/cluster');
 exports.Command = require('./lib/command');
+exports.Codis = require('./lib/codis');
 
 exports.print = function (err, reply) {
   if (err) {
